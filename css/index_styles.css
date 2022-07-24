@@ -1,0 +1,169 @@
+/*General*/
+
+body {
+	background-color: #001219;
+}
+
+
+
+/*Header*/
+
+.header-container {
+	/*background-color: #94d2bd;*/
+	background-color: white;
+}
+
+.navbar-header {
+	height: 200px;
+}
+
+#profile-image {
+	background: url("../images/su_wang_google_profile_picture.jpeg") no-repeat;
+	background-size: contain;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 50%;
+}
+
+#name-font {
+	font-size: 50px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#title-font {
+	font-size: 20px;
+}
+
+.profile-font {
+	font-family: 'Montserrat', sans-serif;
+	color: #495057;
+	text-transform: uppercase;
+}
+
+#logo-image {
+	width: 200px;
+	height: 42px;
+	padding-right: 20px;
+}
+
+/*Sections*/
+
+.sections-container {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#sections-tiles{
+	margin-bottom: auto;
+}
+
+#tile-list {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+}
+
+#news-tile {
+	position: relative;
+	height: 300px;
+	width: 90%;
+	background-color: #e9d8a6;
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#news-tile span {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	font-size: 40px;
+}
+
+#news-tile ul {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#projects-tile {
+	position: relative;
+	height: 300px;
+	width: 90%;
+	background-color: #ca6702;
+	margin-left: auto;
+	margin-right: 0;
+	margin-bottom: 20px;
+	color: #463f3a;
+}
+
+#projects-tile span {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	font-size: 40px;
+}
+
+#projects-tile ul {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#publications-tile {
+	position: relative;
+	height: 400px;
+	width: 90%;
+	background-color: #005f73;
+	margin-left: 0;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color: #f4f3ee;
+}
+
+#publications-tile span {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	font-size: 40px;
+}
+
+#publications-tile ul {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#education-tile {
+	position: relative;
+	height: 200px;
+	width: 90%;
+	background-color: #bcb8b1;
+	margin-left: auto;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+#education-tile span {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	font-size: 40px;
+}
+
+#education-tile ul {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
