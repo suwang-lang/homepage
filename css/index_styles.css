@@ -191,11 +191,67 @@ body {
 }
 
 
+/*Device sizes*/
 
+@media (min-width: 1300px) {}
 
+@media (min-width: 992px) and (max-width: 1299px) {
 
+	#tile-list li {
+		font-size: 16px;
+	}
 
+	#news-tile {
+		height: 320px;
+	}
 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#tile-list li {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	#news-tile {
+		height: 330px;
+	}
+
+	#projects-tile {
+		height: 180px;
+	}
+
+	#publications-tile {
+		height: 650px;
+	}
+
+	#education-tile {
+		height: 250px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	#tile-list li {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	#intro-tile {
+		height: 150px;
+	}
+
+	#publications-tile {
+		height: 550px;
+	}
+
+	#education-tile {
+		height: 200px;
+	}
+
+}
 
 
 
