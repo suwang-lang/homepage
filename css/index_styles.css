@@ -1,25 +1,38 @@
 /*General*/
 
+html {
+	/*width: 1800px;*/
+}
+
 body {
 	background-color: #001219;
+	/*width: 100%;*/
 }
 
 
 
 /*Header*/
 
+#header-nav {
+	margin-bottom: 0;
+	/*width: auto;*/
+	width: 100%;
+}
+
 .header-container {
 	/*background-color: #94d2bd;*/
 	background-color: white;
+	/*width: ;*/
 }
 
-#header-nav {
-	margin-bottom: 0;
-	width: 127vw;
+#header-nav .navbar .navbar-header {
+	/*width: 100px;*/
+	/*width: 100px;*/
 }
 
 .navbar-header {
 	height: 200px;
+	/*width: 100%;*/
 }
 
 #profile-image {
@@ -61,10 +74,15 @@ body {
 
 .sections-container {
 	font-family: 'Montserrat', sans-serif;
+	/*width: 100%;*/
 }
 
 #sections-tiles{
-	margin-bottom: auto;
+	/*margin-bottom*/: auto;
+}
+
+#sections-tiles .sections-container {
+	
 }
 
 #tile-list li {
@@ -76,17 +94,23 @@ body {
 }
 
 #intro-tile {
-	position: relative;
 	height: 100px;
 	width: 100%;
 	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 0;
+}
+
+span {
 	font-size: 20px;
+}
+
+#intro-tile p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 30px;
 	line-height: 30px;
 	overflow: scroll;
 }
@@ -94,7 +118,6 @@ body {
 #news-tile {
 	position: relative;
 	height: 280px;
-	/*height: 100%;*/
 	width: 90%;
 	background-color: #e9d8a6;
 	margin-left: 0;
@@ -108,7 +131,6 @@ body {
 	position: absolute;
 	top: 30px;
 	left: 20px;
-	font-size: 40px;
 }
 
 #news-tile ul {
@@ -133,7 +155,6 @@ body {
 	position: absolute;
 	top: 30px;
 	right: 20px;
-	font-size: 40px;
 }
 
 #projects-tile ul {
@@ -158,7 +179,6 @@ body {
 	position: absolute;
 	top: 30px;
 	left: 20px;
-	font-size: 40px;
 }
 
 #publications-tile ul {
@@ -182,7 +202,6 @@ body {
 	position: absolute;
 	top: 30px;
 	right: 20px;
-	font-size: 40px;
 }
 
 #education-tile ul {
@@ -194,9 +213,23 @@ body {
 
 /*Device sizes*/
 
-@media (min-width: 1300px) {}
+@media (min-width: 1200px) {
 
-@media (min-width: 992px) and (max-width: 1299px) {
+	span.tile-span {
+		font-size: 35px;
+	}
+
+	#news-tile {
+		height: 330px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	span.tile-span {
+		font-size: 35px;
+	}
 
 	#tile-list li {
 		font-size: 16px;
@@ -210,9 +243,17 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	span.tile-span {
+		font-size: 30px;
+	}
+
 	#tile-list li {
 		font-size: 16px;
 		line-height: 20px;
+	}
+
+	#intro-tile {
+		height: 140px;
 	}
 
 	#news-tile {
@@ -233,7 +274,21 @@ body {
 
 }
 
-@media (min-width: 500px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
+
+	#name-font {
+		font-size: 40px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	#title-font {
+		font-size: 15px;
+	}
+
+	span.tile-span {
+		font-size: 25px;
+	}
 
 	#tile-list li {
 		font-size: 12px;
@@ -242,6 +297,11 @@ body {
 
 	#intro-tile {
 		height: 150px;
+		/*padding-left: 30px;*/
+	}
+
+	#intro-tile p {
+		font-size: 17px;
 	}
 
 	#publications-tile {
@@ -254,10 +314,10 @@ body {
 
 }
 
-@media (max-width: 499px) {
+@media (max-width: 576px) {
 
 	#name-font {
-		font-size: 40px;
+		font-size: 30px;
 		padding-top: 40px;
 		padding-bottom: 20px;
 	}
@@ -266,16 +326,26 @@ body {
 		font-size: 12px;
 	}
 
+	#logo-image {
+		width: 150px;
+		height: 30px;
+	}
+
+	span.tile-span {
+		font-size: 25px;
+	}
+
 	#tile-list li {
 		font-size: 10px;
 		line-height: 20px;
 	}
 
 	#intro-tile {
-		height: 130px;
+		height: 180px;
+	}
+
+	#intro-tile p {
 		font-size: 15px;
-		text-align: left;
-		padding-left: 30px;
 	}
 
 	#news-tile {
