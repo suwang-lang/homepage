@@ -13,6 +13,10 @@ body {
 	background-color: white;
 }
 
+#header-nav {
+	margin-bottom: 0;
+}
+
 .navbar-header {
 	height: 200px;
 }
@@ -30,6 +34,10 @@ body {
 	font-size: 50px;
 	padding-top: 40px;
 	padding-bottom: 20px;
+}
+
+#name-font h1:hover {
+	text-decoration: none;
 }
 
 #title-font {
@@ -58,14 +66,32 @@ body {
 	margin-bottom: auto;
 }
 
-#tile-list {
+#tile-list li {
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#intro-tile {
+	position: relative;
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 #news-tile {
 	position: relative;
-	height: 300px;
+	height: 280px;
 	width: 90%;
 	background-color: #e9d8a6;
 	margin-left: 0;
@@ -89,7 +115,7 @@ body {
 
 #projects-tile {
 	position: relative;
-	height: 300px;
+	height: 200px;
 	width: 90%;
 	background-color: #ca6702;
 	margin-left: auto;
@@ -113,7 +139,7 @@ body {
 
 #publications-tile {
 	position: relative;
-	height: 400px;
+	height: 700px;
 	width: 90%;
 	background-color: #005f73;
 	margin-left: 0;
@@ -137,7 +163,7 @@ body {
 
 #education-tile {
 	position: relative;
-	height: 200px;
+	height: 300px;
 	width: 90%;
 	background-color: #bcb8b1;
 	margin-left: auto;
